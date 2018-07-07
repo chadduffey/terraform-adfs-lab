@@ -22,10 +22,3 @@ variable "ami" {
   description = "AMI for Windows Server 2016 Base on EC2"
   default     = "ami-3703414f"
 }
-
-#might not be needed
-#variable "key_path" {
-#  description = "SSH Public Key path"
-#  default     = "id_rsa.pub"
-#}
-
